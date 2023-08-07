@@ -111,7 +111,7 @@ body {
     padding-top: 10px;
 }
 .super-sec6{
-    background: url(D:\رياكت\my-app\public\image\2121.png);
+    background: url(../../public/image/2121.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;

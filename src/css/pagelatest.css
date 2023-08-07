@@ -113,7 +113,7 @@ body {
 }
 
 .super-sec4 {
-    background: url(D:\رياكت\my-app\public\image\2121.png);
+    background: url(../../public/image/2121.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -143,7 +143,7 @@ body {
 /* 3 */
 
 .super-sec24 {
-    background: url(D:\رياكت\my-app\public\image\3030.png);
+    background: url(../../public/image/3030.png);
     padding-bottom: 350px;
 }
 
