@@ -43,12 +43,11 @@ body {
 }
 
 /* Large */
-@media (min-width: 1200px) {
-    .container1 {
-        width: 1170px;
-    }
-}
+/* الأنماط الافتراضية للهيدر */
 
+#head{
+    margin-top: 20px;
+}
 .header {
     padding: 20px;
     display: flex;
@@ -118,6 +117,7 @@ body {
     background-color: rgb(171, 212, 236);
     padding-bottom: 250px;
     width: auto;
+    margin-top: 50px;
 }
 
 .item-super1 {

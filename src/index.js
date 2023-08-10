@@ -12,13 +12,13 @@ import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
- {/* <Mainlayout/>
+<React.StrictMode>
+  {/* <Mainlayout/>
 
  <Acontact/>
- <About/>p
-<Latest/>
-<Latestnew/>
+ <About/>
+ <Latest/>
+  <Latestnew/>
 <Servicespage/> */}
 <BrowserRouter>
 

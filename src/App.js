@@ -9,7 +9,7 @@ import Mainlayout from "./components/Mainlayout";
 
 class App extends Component {
   render() {
-    return (
+    return ( 
         
           <Routes>
               <Route exact path='/' element={<Mainlayout/>} />

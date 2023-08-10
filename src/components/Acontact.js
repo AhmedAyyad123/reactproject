@@ -18,17 +18,20 @@ export default function Acontact() {
         </div>
       </div>
     </header>
-
-
-    <div className="container">
-      <div className="description">
-        <img src="../image/2727.png" alt="people looking for something!" className="people-svg" />
-        <div className="desc-flex">
-          <h3 className="about-title">About The Company</h3>
+      <div className="About-title1">
+    <h3 className="about-title">About The Company</h3>
           <div className="descr">
             <h2 className="hero-heading">Secure <span className="red-txt" style={{ color: 'lightgreen' }}>IT
               Solutions</span>for a more secure environment</h2>
           </div>
+          </div>
+
+    <div className="container13">
+      <div className="description">
+      <div class="image-wrapper">
+     <img src="../image/2727.png" alt="people looking for something!" class="people-svg" />
+        </div>
+     
           <div className="accordions">
             <div className="accordion">
               <div className="header">
@@ -52,7 +55,9 @@ export default function Acontact() {
           </div>
         </div>
       </div>
-    </div>
+    
+   
+    
 
     <div className="container">
       <h2 className="special-heading">Drop Us a Line</h2>
@@ -74,13 +79,16 @@ export default function Acontact() {
           <textarea name="Message" rows={4} placeholder="Message" defaultValue={""} />
           <button className="send-btn">Send Message</button>
         </form>
-      </section>
+        </section>
     </div>
-
-    <div className="container">
+  
+  
+    
+      <div className="container11">
+     <div class="map-wrapper">
     <iframe className="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.274257380938!2d34.455552!3d31.5088919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sen!2sus!4v1671220374408!5m2!1sen!2sus" width={600} height={450} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
-
     </div>
+     </div> 
 
     <footer className="footer">
       <div className="footer-container">

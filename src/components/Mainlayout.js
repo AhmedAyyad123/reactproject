@@ -36,7 +36,7 @@ export default function Mainlayout() {
 
             <br />
             <section>
-                <div className="container0">
+                <div className="container01">
                     <div className="text0">
                         <h1>Secure <span>IT Solutions </span>For a more <br />secure environment</h1>
                         <h4>
@@ -119,7 +119,6 @@ export default function Mainlayout() {
 
             <section className="s10">
                 <div className="container20">
-
                 <div className="ayyad0">
                         <center>
                             <h1 style={{ color: 'blue' }}>Our Project</h1>
@@ -133,6 +132,7 @@ export default function Mainlayout() {
                         <li><a href="#coming">Website development</a></li>
                         <li><a href="#newsletter">software</a></li>
                     </ul>
+
                     <div className="card0">
                         <div className="imgbx0">
                             <img width={300} height={300} src="../image/777.png" alt />
