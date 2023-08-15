@@ -294,7 +294,7 @@ export default function Mainlayout() {
 
 
             <Swiper
-                slidesPerView={3}
+                slidesPerView={2}
                 className="swiper"
                 breakpoints={breakpoints}
                 style={{ padding: " 1rem" }}
@@ -428,11 +428,11 @@ export default function Mainlayout() {
             </div>
 
             <Swiper
-                slidesPerView={3}
+                slidesPerView={1}
                 className="swiper"
                 breakpoints={breakpoints}
                 style={{ padding: " 1rem" }}
-                spaceBetween={190}
+                spaceBetween={150}
                 pagination={{ clickable: true }}
                 modules={[Navigation, Pagination, A11y, EffectCoverflow]}
             >

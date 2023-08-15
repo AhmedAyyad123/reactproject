@@ -320,18 +320,10 @@
   
 }
 
-.content-wrapper {
-  display: flex;
-  flex-direction: row-reverse; /* يقوم بتغيير ترتيب العناصر */
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 100%;
-}
 
 .img20 {
   flex-shrink: 0;
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   margin-left: 20px;
   padding: 10px;
@@ -356,7 +348,7 @@
   }
 
   .text0 {
-    width: 100%;
+    width: 50%;
     padding: 20px 0;
     text-align: center;
   }
